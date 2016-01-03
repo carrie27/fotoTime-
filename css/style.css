@@ -1,7 +1,6 @@
 * {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-	font-family: "PT Sans";
 }
 
 .column1 {width: 8.33%;}
@@ -28,17 +27,104 @@ div[class*="column"] {float:left;
 	display: block; 
 	clear: both;}
 
-.pull-right {float:right}  
-.pull-left {float:left}
+.pull-right {float:right;}  
+.pull-left {float:left;}
 
 body {
 	margin: 0 auto;
 	width: 1280px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
-	width: 1090px;
 	margin: 0 auto;
+	width: 1090px;
+}
+a {
+	text-decoration: none;
 }
 .up {
 	text-transform: uppercase;
+}
+.heading {
+	font-size: 24px;
+	color: #16a085;
+	font-weight: bold;
+	margin-top: 125px;
+	width: 385px;
+}
+.main-text p, .design-text p {
+	font-size: 12px;
+	width: 455px;
+	letter-spacing: 4px;
+	margin: 50px 0;
+}
+.btn {
+	width: 190px;
+	height: 50px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: #16a085;
+	padding: 20px 45px;
+	border-radius: 5px;
+}
+
+.page-header {
+	height: 745px;
+	background-image: url(../image/fon1.jpg);
+}
+.page-header-btn {
+	position: relative;
+	top: 70px;
+	left: 445px;
+}
+.page-header-title h1, .page-header-title p {
+	color: #fff;
+} 
+.page-header-title h1 {
+	letter-spacing: 7px;
+	margin-left: 320px;
+}
+.page-header-title p {
+	letter-spacing: 4px;
+	margin-left: 400px;
+	font-size: 13px;
+}
+.page-header-nav {
+	margin-bottom: 180px;
+}
+.page-header-soc {
+	display: inline-block;
+}
+.twit {
+	background-image: url(../image/nav-bar-tw.png);
+	
+}
+.main {
+	height: 494px;
+	background-image: url(../image/fon-hand-phone.png);
+}
+.design {
+	height: 555px;
+	background-color: #fff;
+}
+.community {
+	height: 483px;
+	background-image: url(../image/fon4.png);
+	
+}
+.subCom {
+	height: 790px;
+	background-image: url(../image/fon5.jpg);
+	
+}
+.download {
+	height: 396px;
+	background-image: url(../image/fon6.png);
+	
+}
+.page-footer {
+	height: 130px;
+	background-color: #fff;
 }
