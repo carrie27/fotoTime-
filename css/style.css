@@ -42,6 +42,7 @@ body {
 a {
 	text-decoration: none;
 }
+
 .up {
 	text-transform: uppercase;
 }
@@ -58,6 +59,7 @@ a {
 	letter-spacing: 4px;
 	margin: 50px 0;
 }
+
 .btn {
 	width: 190px;
 	height: 50px;
@@ -106,18 +108,84 @@ a {
 	background-image: url(../image/fon-hand-phone.png);
 }
 .design {
-	height: 555px;
-	background-color: #fff;
+	height: 558px;
+	background-image: url(../image/fon-d.png);
+	position: relative;
+}
+.main-text:after {
+	content: "";
+	display: inline-block;
+	background-image: url(../image/Hand.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: absolute;
+	width: 644px;
+	height: 701px;	
+	top: 825px;
+	left: 620px;
+}
+.design:before {
+	content: "";
+	display: inline-block;
+	background-image: url(../image/phone3.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: absolute;
+	width: 314px;
+	height: 617px;	
+	left: 90px;
+	top: 130px;
 }
 .community {
 	height: 483px;
 	background-image: url(../image/fon4.png);
-	
+	position: relative;
+}
+.community-text {
+	width: 190px;
+	text-align: center;
+	margin: 160px 50px 120px 0;
+}
+.community-text p {
+	font-size: 10px;
+	letter-spacing: 3px;
+	padding-top: 20px;
+}
+.community-text h3{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.community-img {
+	margin: 120px 30px 120px 20px;
 }
 .subCom {
 	height: 790px;
 	background-image: url(../image/fon5.jpg);
+	position: relative;
+}
+.subCom h2 {
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	padding-top: 340px;
+}
+input {
 	
+}
+input[type="text"] {
+	font-size: 18px;
+	color: #444444;
+	padding: 0 20px;
+	margin: 0;
+	
+}
+input[type="submit"] {
+	background-color: #16a085;
+	font-size: 18px;
+	margin: 0;
+	
+	cursor: pointer;
 }
 .download {
 	height: 396px;
